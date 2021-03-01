@@ -7,15 +7,9 @@
 
 a = 1
 b = 2
-
-# print(a)
-# for _ in range(9):
-#     print(b)
-#     sum = a + b
-#     a = b
-#     b = sum
 sum = 0
 total = 0
+
 while b < 4_000_000:
     sum = a + b
     a = b
